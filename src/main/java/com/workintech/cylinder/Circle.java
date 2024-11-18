@@ -4,6 +4,9 @@ public class Circle {
 
     private double radius;
 
+    public Circle() {
+    }
+
     public Circle (double radius){
         this.radius = Math.max(radius, 0);
     }
@@ -15,4 +18,6 @@ public class Circle {
     public double getArea() {
         return this.radius * this.radius * Math.PI;
     }
+
+
 }
