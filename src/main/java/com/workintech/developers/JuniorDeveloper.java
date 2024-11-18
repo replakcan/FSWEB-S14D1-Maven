@@ -2,8 +2,8 @@ package com.workintech.developers;
 
 public class JuniorDeveloper extends Employee{
 
-    public JuniorDeveloper(int id, int salary, String name) {
-        super(id, salary, name);
+    public JuniorDeveloper(int id, String name, int salary) {
+        super(id, name, salary);
     }
 
     @Override

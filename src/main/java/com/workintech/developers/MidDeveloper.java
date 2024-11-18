@@ -2,8 +2,8 @@ package com.workintech.developers;
 
 public class MidDeveloper extends Employee{
 
-    public MidDeveloper(int id, int salary, String name) {
-        super(id, salary, name);
+    public MidDeveloper(int id, String name, int salary) {
+        super(id, name, salary);
     }
 
     @Override

@@ -29,7 +29,7 @@ public class Employee {
         this.salary = salary;
     }
 
-    public Employee(int id, int salary, String name) {
+    public Employee(int id, String name ,int salary) {
         this.id = id;
         this.salary = salary;
         this.name = name;
