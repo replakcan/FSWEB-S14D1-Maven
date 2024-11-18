@@ -5,6 +5,11 @@ public class Rectangle {
     private float width;
     private float length;
 
+    public Rectangle(float width, float length) {
+        this.length = length;
+        this.width = width;
+    }
+
     public float getWidth() {
         return width;
     }
